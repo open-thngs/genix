@@ -1,17 +1,16 @@
-# GeniX 
-#### (Generic inter-integrated Circuit Communication Protocoll)
+# GeniX
 
 GeniX is a Generic inter-integrated Circuit Communication Protocoll on top of the I2C protocol to make the communication between sensor modules and main MCU’s or CPU’s more predictable, structured and abstract. The objective is to establish a universal language compatible with various sensor types, thereby minimizing the need for extensive software development and fostering modularization. This approach enables seamless integration of sensors into systems without any coding requirements, facilitating effortless sensor replacement for maintenance purposes or upgrading from less accurate models to superior ones.
 
-- Flexibility: By utilizing a standardized communication interface and abstraction layer, various sensor modules can be seamlessly integrated regardless of their specific features or manufacturers.
+- **Flexibility**: By utilizing a standardized communication interface and abstraction layer, various sensor modules can be seamlessly integrated regardless of their specific features or manufacturers.
 
-- Modularity: The system's modularity allows for easy swapping or addition of individual sensor modules without needing to reconfigure the entire architecture. This facilitates system scalability and enables agile adaptation to changing requirements.
+- **Modularity**: The system's modularity allows for easy swapping or addition of individual sensor modules without needing to reconfigure the entire architecture. This facilitates system scalability and enables agile adaptation to changing requirements.
 
-- Development Efficiency: Abstraction at the MCU level simplifies and accelerates the implementation of sensor modules since developers don't need to recode everything from scratch each time a new sensor device is added.
+- **Development Efficiency**: Abstraction at the MCU level simplifies and accelerates the implementation of sensor modules since developers don't need to recode everything from scratch each time a new sensor device is added.
 
-- Interoperability: Since all sensor modules follow the same communication standard and abstraction layer, they can communicate seamlessly with each other and with the main control unit. This streamlines integration and sensor swapping, ensuring smooth system functionality.
+- **Interoperability**: Since all sensor modules follow the same communication standard and abstraction layer, they can communicate seamlessly with each other and with the main control unit. This streamlines integration and sensor swapping, ensuring smooth system functionality.
 
-- Enhanced Maintainability and Reliability: Clear task separation between the GeniX controller and the sensor modules simplifies system maintenance and enables easy isolation and resolution of faults. Additionally, standardization minimizes the likelihood of compatibility issues, improving overall system reliability.
+- **Enhanced Maintainability and Reliability**: Clear task separation between the GeniX controller and the sensor modules simplifies system maintenance and enables easy isolation and resolution of faults. Additionally, standardization minimizes the likelihood of compatibility issues, improving overall system reliability.
 
 ## GeniX Block
 
