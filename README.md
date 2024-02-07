@@ -1,4 +1,4 @@
-# GeniX
+# GeniX (WIP)
 
 GeniX is a Generic inter-integrated Circuit Communication Protocoll on top of the I2C protocol to make the communication between sensor modules and main MCU’s or CPU’s more predictable, structured and abstract. The objective is to establish a universal language compatible with various sensor types, thereby minimizing the need for extensive software development and fostering modularization. This approach enables seamless integration of sensors into systems without any coding requirements, facilitating effortless sensor replacement for maintenance purposes or upgrading from less accurate models to superior ones.
 
