@@ -13,7 +13,7 @@ GeniX is a Generic inter-integrated Circuit Communication Protocoll on top of th
 
 ## GeniX Block
 
-<img src="/img/genix-block-diagram.png" width="50%">
+<img src="/img/genix-block-diagram.png" width="70%">
 
 The image above illustrates the abstraction of the sensor modules and the main MCU. Each sensor module is equipped with its own MCU, which serves to abstract business logic, handle data analysis tasks, and manage communication with the sensor via its dedicated protocol, such as I2C or SPI (the most common ones). The MCU within the sensor node operates as a GeniX Device, facilitating communication with the main MCU. This approach renders the sensor hardware interchangeable and highly abstract, allowing it to transmit only the necessary data. Functions such as calibration, driver logic, calculations, and data analysis are performed on the sensor module MCU, thereby relieving the main MCU of these tasks and allocating more resources for other functions such as wireless communication and data storage.
 
